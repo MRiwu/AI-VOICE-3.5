@@ -1,13 +1,8 @@
----
-title: Nyaru Svc 3.5
-emoji: 📚
-colorFrom: blue
-colorTo: indigo
-sdk: gradio
-sdk_version: 3.16.1
-app_file: app.py
-pinned: false
-duplicated_from: innnky/nyaru-svc-3.5
----
+### Installation
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+The model adopts a clustering approach to discretize the content vec,
+sacrificing some pronunciation performance (there may be many phonetic errors), but it will be more similar to the target voice (MAYBE？
+
+### Colab
+
+https://colab.research.google.com/drive/1T7aEnxu7fc-6pWILtDMaHOyJqA3fm_E1

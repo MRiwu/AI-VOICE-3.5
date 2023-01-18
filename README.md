@@ -9,6 +9,6 @@ https://colab.research.google.com/drive/1T7aEnxu7fc-6pWILtDMaHOyJqA3fm_E1
 
 ### License
 
-[auto-green](https://github.com/justjavac/auto-green) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+[AI-VOICE-3.5](https://github.com/MRiwu/AI-VOICE-3.5) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
 
 

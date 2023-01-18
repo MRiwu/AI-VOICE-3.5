@@ -10,7 +10,7 @@ raw
     ├───...
     └───xxx7-xxx007.wav
 
-此外还需要编辑config.json
+
 
 "n_speakers": 10
 

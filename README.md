@@ -6,3 +6,9 @@ sacrificing some pronunciation performance (there may be many phonetic errors), 
 ### Colab
 
 https://colab.research.google.com/drive/1T7aEnxu7fc-6pWILtDMaHOyJqA3fm_E1
+
+### License
+
+[auto-green](https://github.com/justjavac/auto-green) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+
+

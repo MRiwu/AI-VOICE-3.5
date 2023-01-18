@@ -1,3 +1,4 @@
+
 import copy
 import math
 import numpy as np
@@ -14,7 +15,6 @@ from commons import init_weights, get_padding
 
 
 LRELU_SLOPE = 0.1
-
 
 class LayerNorm(nn.Module):
   def __init__(self, channels, eps=1e-5):

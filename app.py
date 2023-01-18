@@ -29,8 +29,7 @@ def vc_fn(sid, input_audio, vc_transform, model):
     sampling_rate, audio = input_audio
     # print(audio.shape,sampling_rate)
     duration = audio.shape[0] / sampling_rate
-    if duration > 45:
-        return "请上传小于45s的音频，需要转换长音频请本地进行转换", None
+    
     audio = (audio / np.iinfo(audio.dtype).max).astype(np.float32)
     if len(audio.shape) > 1:
         audio = librosa.to_mono(audio.transpose(1, 0))
@@ -51,15 +50,7 @@ with app:
     with gr.Tabs():
         with gr.TabItem("Basic"):
             gr.Markdown(value="""
-                这是ai猫雷3.5版本demo，算是一个不太一样的尝试，图一乐就行
-
-                模型采用了聚类的方案对content vec进行离散化，主要是针对于解决猫雷模型不够"像"猫雷的问题
                 
-                牺牲了部分咬字性能（可能会有很多发音错误），但是会更加像目标音色（大概？
-
-                暂时不提供训练代码
-
-                本地合成可以删除32、33两行代码以解除合成45s长度限制""")
             sid = gr.Dropdown(label="音色", choices=['nyaru', "taffy", "otto"], value="nyaru")
             vc_input3 = gr.Audio(label="上传音频（长度小于45秒）")
             vc_transform = gr.Number(label="变调（整数，可以正负，半音数量，升高八度就是12）", value=0)

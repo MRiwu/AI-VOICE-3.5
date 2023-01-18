@@ -23,3 +23,4 @@ def get_cluster_center_result(x,speaker):
     return kmeans_dict[speaker].cluster_centers_[predict]
 def get_center(x,speaker):
     return kmeans_dict[speaker].cluster_centers_[x]
+

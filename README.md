@@ -1,6 +1,6 @@
 ### introduce
 
-The model adopts a clustering approach to discretize the content vec,
+The model adopts a clustering approach to discretize the content vec
 
 sacrificing some pronunciation performance (there may be many phonetic errors), but it will be more similar to the target voice (MAYBE？
 

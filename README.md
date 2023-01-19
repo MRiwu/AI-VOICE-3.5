@@ -5,7 +5,7 @@ sacrificing some pronunciation performance (there may be many phonetic errors), 
 
 ### Colab demo
 
-https://colab.research.google.com/drive/1T7aEnxu7fc-6pWILtDMaHOyJqA3fm_E1#scrollTo=F-0Ng0TTQmBm
+https://colab.research.google.com/drive/1T7aEnxu7fc-6pWILtDMaHOyJqA3fm_E1#scrollTo=6jUxzb9iRoXk
 
 ### License
 
